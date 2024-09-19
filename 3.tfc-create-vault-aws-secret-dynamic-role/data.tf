@@ -2,7 +2,7 @@ data "terraform_remote_state" "vault_admin" {
   backend = "remote"
 
   config = {
-    organization = "SecureOps_ARS"
+    organization = "SecureOps-ARS"
     workspaces = {
       name = "tfc-create-aws-iam-user"
     }
