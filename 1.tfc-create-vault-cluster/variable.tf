@@ -17,7 +17,7 @@ variable "cluster_cider" {
 }
 
 variable "vault_cluster_id" {
-    description = "Cluster Name"
+    description = "NN4 Cluster Name"
     type = string
     default = "hcp-vault-cluster"
 }
